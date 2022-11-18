@@ -1,0 +1,28 @@
+<div class="container">
+<div class="search-results" infiniteScroll [infiniteScrollDistance]="1" [infiniteScrollThrottle]="900"  (scrolled)="onScroll()">
+    <div *ngFor="let item of list">
+        <h1>More visited</h1>
+        <div class="category_box">
+            <div>
+                <div class="categ" *ngFor="let cate of category_mv" [routerLink]="['/shop/category', cate.reference]">
+                    <h4>Times visited <span>{{cate.visited}}</span></h4>
+                    <fa-icon class="icon_category" [icon]="[cate.icon!.prefix, cate.icon!.name]"></fa-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="position: relative">
+        <ngx-spinner
+            bdOpacity = 0.9
+            bdColor = "#f4f4f9"
+            size = "medium"
+            color = "#1010ee"
+            type = "ball-clip-rotate"
+            [fullScreen] = "false">
+        </ngx-spinner>
+      </div>
+</div>
+<button *ngIf="[showGoUpButton]"
+(click)="scrollTop()"><fa-icon class="icon_category" [icon]="['fas','arrow-up']" size="2x"></fa-icon>
+</button>
+</div>

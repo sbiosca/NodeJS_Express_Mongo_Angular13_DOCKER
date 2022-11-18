@@ -1,0 +1,60 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    font-family: arial;
+    padding: 1.5%;
+    .simple_border {
+      width: 100%;
+      border-bottom: 2px solid #1b1b8d;
+      padding: 0.5%;
+    }
+    div.avatar{
+      width: 30%;
+      float: left;
+      img {
+        width: 100%;
+      }
+    }
+    div.biography {
+      float: right;
+      width: 60%;
+    }
+    div.description {
+      margin: 1.5% 0%;
+      float: left;
+      padding: 1%;
+      width: 100%;
+      border: 2px gray solid;
+      height: 200px;
+    }
+  }
+  
+.email {
+    color: grey;
+    font-size: 18px;
+}
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #1b1b8d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #1b1b8d;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }

@@ -1,0 +1,45 @@
+<div class="profile-page">
+    <div class="card">
+        <div class="avatar">
+            <a target="_blank" href="{{profile.image}}"><img [src]="profile.image || 'https://www.ibei.org/images/4611/person_box.png'"></a>
+            <h1>{{profile.username}}</h1>
+            <p class="email">{{profile.email}}</p>
+        </div>
+        <div class="biography">
+            <div class="main">
+                <div *ngIf="profile.username === currentUser.username" routerLink="/shop/category/favorites">
+                    <div class="simple_border">
+                        <strong>Favourites</strong>
+                    </div>                    <p></p>
+                    {{favorites?.length}}&nbsp;
+                    <span><fa-icon [icon]="['fas', 'heart']" size="1x"></fa-icon></span>
+                </div>&nbsp;&nbsp;
+                <div>
+                    <div class="simple_border">
+                        <strong>Followers</strong>
+                    </div>
+                    <strong> <p>{{profile.followers!.length}}</p></strong>
+                </div> &nbsp;&nbsp;    
+                <div>
+                    <div class="simple_border">
+                        <strong>Following</strong>
+                    </div>                    <strong><p>{{profile.following!.length}}</p></strong>
+                </div>&nbsp;&nbsp;    
+                <div>
+                    <div class="simple_border">
+                        <strong>Products</strong>
+                    </div>                    <strong><p>{{profile.products!.length}}</p></strong>
+                </div> 
+            </div>
+        </div>
+        <div class="description">
+            <p>{{profile.bio}}</p>
+        </div>
+        <app-follow *ngIf="profile.username !== currentUser.username" [profile]="profile" [followed]="followed" (follower)="follow_toggle($event)">
+        </app-follow>
+        <button *ngIf="profile.username === currentUser.username" [routerLink]="['/settings']" [routerLinkActive]="['active']">Settings</button>
+    </div>
+    <app-product [profile_products]="profile_products"></app-product>
+
+</div>
+  

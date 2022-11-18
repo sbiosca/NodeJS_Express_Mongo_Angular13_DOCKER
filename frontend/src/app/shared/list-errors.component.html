@@ -1,0 +1,6 @@
+<div style="color: red;" *ngIf="errorList">
+    <span *ngFor="let error of errorList; trackBy: trackByFn">
+      {{ error }}
+    </span><p></p>
+</div>
+  
