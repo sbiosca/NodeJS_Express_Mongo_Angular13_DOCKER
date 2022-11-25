@@ -1,10 +1,9 @@
 const mongoose = require('mongoose');
-require('dotenv').config({path: 'config.env'});
-
+//require('dotenv').config({path: 'config.env'});
 
 const conectarDB = async () => {
     try {
-        await mongoose.connect(process.env.DB_MONGO, {
+        await mongoose.connect("mongodb://bioskin:12345@mongodb:27017/bd_projects?authMechanism=DEFAULT", {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         })

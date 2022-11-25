@@ -1,0 +1,186 @@
+[{
+  "_id": {
+    "$oid": "635a66e8bb4e6e2daaf276d5"
+  },
+  "slug": "all",
+  "reference": -1,
+  "icon": {
+    "prefix": "fas",
+    "name": "border-all"
+  },
+  "name_category": "all",
+  "products": [],
+  "__v": 0,
+  "visited": 5
+},{
+  "_id": {
+    "$oid": "635a6715bb4e6e2daaf276d7"
+  },
+  "slug": "drive-accesories",
+  "reference": 3,
+  "icon": {
+    "prefix": "fas",
+    "name": "helmet-un"
+  },
+  "name_category": "drive-accesories",
+  "products": [
+    {
+      "$oid": "6346ac4fcb6ab08e153a41e4"
+    },
+    "634586e2b1b9635819c89985"
+  ],
+  "visited": 27,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a6726bb4e6e2daaf276d9"
+  },
+  "slug": "clothes",
+  "reference": 4,
+  "icon": {
+    "prefix": "fas",
+    "name": "shirt"
+  },
+  "name_category": "clothes",
+  "products": [
+    {
+      "$oid": "634586bab1b9635819c8997d"
+    },
+    "634586ebb1b9635819c89987",
+    "6346ac4fcb6ab08e153a41de",
+    "6346ac4fcb6ab08e153a41df"
+  ],
+  "visited": 89,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a6731bb4e6e2daaf276db"
+  },
+  "slug": "motorcycle",
+  "reference": 2,
+  "icon": {
+    "prefix": "fas",
+    "name": "motorcycle"
+  },
+  "name_category": "motorcycle",
+  "products": [
+    {
+      "$oid": "633f078edef3a45377affa99"
+    },
+    "6346ac4fcb6ab08e153a41e5"
+  ],
+  "visited": 22,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a673cbb4e6e2daaf276dd"
+  },
+  "slug": "sports",
+  "reference": 7,
+  "icon": {
+    "prefix": "fas",
+    "name": "futbol"
+  },
+  "name_category": "sports",
+  "products": [
+    {
+      "$oid": "634586ebb1b9635819c89987"
+    },
+    {
+      "$oid": "6346ac4fcb6ab08e153a41de"
+    },
+    {
+      "$oid": "6346ac4fcb6ab08e153a41e1"
+    }
+  ],
+  "visited": 30,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a6749bb4e6e2daaf276df"
+  },
+  "slug": "car",
+  "reference": 1,
+  "icon": {
+    "prefix": "fas",
+    "name": "car"
+  },
+  "name_category": "car",
+  "products": [
+    {
+      "$oid": "633f0778def3a45377affa95"
+    },
+    {
+      "$oid": "63458032b1b9635819c89900"
+    },
+    "6346ac4fcb6ab08e153a41e3"
+  ],
+  "visited": 34,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a6755bb4e6e2daaf276e1"
+  },
+  "slug": "mobile",
+  "reference": 6,
+  "icon": {
+    "prefix": "fas",
+    "name": "mobile"
+  },
+  "name_category": "mobile",
+  "products": [
+    {
+      "$oid": "634586c6b1b9635819c8997f"
+    },
+    {
+      "$oid": "6346ac4fcb6ab08e153a41e7"
+    },
+    "6346ac4fcb6ab08e153a41e2"
+  ],
+  "visited": 18,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a6760bb4e6e2daaf276e3"
+  },
+  "slug": "furniture",
+  "reference": 8,
+  "icon": {
+    "prefix": "fas",
+    "name": "chair"
+  },
+  "name_category": "furniture",
+  "products": [
+    {
+      "$oid": "634586d2b1b9635819c89981"
+    },
+    "6346ac4fcb6ab08e153a41e0"
+  ],
+  "visited": 23,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635a67d7bb4e6e2daaf276e7"
+  },
+  "slug": "tecnhology",
+  "reference": 5,
+  "icon": {
+    "prefix": "fas",
+    "name": "tv"
+  },
+  "name_category": "tecnhology",
+  "products": [
+    {
+      "$oid": "634586dab1b9635819c89983"
+    },
+    {
+      "$oid": "6346ac4fcb6ab08e153a41e6"
+    },
+    "633f0783def3a45377affa97",
+    "6346ac4fcb6ab08e153a41e2",
+    "634586c6b1b9635819c8997f",
+    "6346ac4fcb6ab08e153a41e7"
+  ],
+  "visited": 14,
+  "__v": 0
+}]
