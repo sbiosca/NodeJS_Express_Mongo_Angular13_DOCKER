@@ -1,0 +1,275 @@
+[{
+  "_id": {
+    "$oid": "6362ca103ed8a24818fca81d"
+  },
+  "username": "sergi",
+  "email": "serbidaw@gmail.com",
+  "salt": "c8b965b445b26820780603308545b734",
+  "hash": "d30f681bf6f1047f977449ad3626044366307b365e0b14d53a521e267ad0166eb21cdd698cf1bb51492e2519b3fb1f16daed258be82a89539457cfe545bbd9c5cc27bda7d9d57b3aca01aeffbddb91708384eed87bceb91fbd2b9b3891b89073a2ecd29a1fefee2fe88d21db9054be5673df36fb8d8d41596712443c8762fce7e4199d44462812f077a0acc5c6328a5f4b2e20d77e648351f0332077cd2582f413c6ba2e1c6eb34332b03255cc18ade2ce7c7968228beb1895f1151a8720934bd785f36a494eefb63ce91aea9d0973cd343f05be70f78e837778666dddcb62ec85386613f802cba06976aec06d9e2d201c6b29a9aa9a9c8105d559347fd089e0586997c8a456c8df62928c322edc7303914a11355393557e5eaebc20d9c56d89b0b5bbfa71a2e9585281a579266877eb16e3825379242a40f4d75971aae8c038e4d028a3a72c2158d04a65d44138226199fc05cc436d22f89c98780333e59f1be0f8e00d3609a47c7547009491f1eb9bf1ce6ea356bf900f8ab1f6f3677fc720de3fa76a0abdea442f2ea1e349f6ebff1462cb9f50ada4cd6cf65e56e49d606ada975cd9badba89fbb12b430597f8e2b3478e844512706e55f53185c99d99d5f3a67a164fcb4c67d753e001ec707afa9ae85df4066023fff7ace4563a29412d62d1201724a39512858cd9c43989cd88e5d87703bb85e4e34cfb10aa4a3c71726",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667418640434"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668167127086"
+    }
+  },
+  "__v": 298,
+  "image": "https://rfef.isquad.es/images/afiliacion/48608659E.JPG",
+  "bio": "hola soy sergi",
+  "favorites": [
+    {
+      "$oid": "633f078edef3a45377affa99"
+    },
+    {
+      "$oid": "634586c6b1b9635819c8997f"
+    },
+    {
+      "$oid": "633f0778def3a45377affa95"
+    },
+    {
+      "$oid": "63458032b1b9635819c89900"
+    },
+    {
+      "$oid": "634586d2b1b9635819c89981"
+    },
+    {
+      "$oid": "6346ac4fcb6ab08e153a41e3"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "636403320e1720b469169d08"
+    },
+    {
+      "$oid": "636e1c3e401a854ded8da3c1"
+    },
+    {
+      "$oid": "6364272fee24b5dff30461d2"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "6364272fee24b5dff30461d2"
+    },
+    {
+      "$oid": "63641ce08792b33d895b1f6f"
+    },
+    {
+      "$oid": "636e1c3e401a854ded8da3c1"
+    },
+    {
+      "$oid": "636403320e1720b469169d08"
+    }
+  ],
+  "products": [
+    "633f0778def3a45377affa95"
+  ]
+},{
+  "_id": {
+    "$oid": "636403320e1720b469169d08"
+  },
+  "username": "rafa",
+  "email": "rafa@gmail.com",
+  "image": "https://rfef.isquad.es/images/afiliacion/48608808X.JPG",
+  "salt": "b9353bca6dd306dab15f303d7f9c96d7",
+  "hash": "927bf727c753c80eb7e43c93282db64e4c11afa4d8c3fc6ab888d985c0d34e5f611805913ee6f587338d212ccb8be8c16e9f03e6f45dcee6cdfd1cfcbc1357b31a2992c35b6c8f2e0097d6860be64f512484ee0abfc3d58c52e4a96a4b341ead856bccd46fe8bba82ad0f1033e7567563e61607e02507bd6805da89f8360186b85c253dc6d2b75914e1f80dd02822c0c16efb0323a4d14420118204ece3262621e12f921b4fb8a14cd07dafa09378ed90f0cb9241301384a9bbc02e18658744c41ebbf48fd31093d6e89d64d1d03f0f0473c5f069bfcb5f570ab42d49e8a0317de9241b985f3b8072a19a597f410ebfcb8070c8d95831c10146e2c2ba0930de12f1b1cd24ed3c87645e6ce595ac53ee49d4ecee0401d25dd5db2c9ba11b57a4f41d4804a0421120665ec84083e0b9f7b90787b225ad09215f256970906bb7f0bd21b26fffc94310b5338e67c9bdb0c5a05c1e1bc857171d9e9b6406d7bdd5ef109803980421059e26bf4eec10007c1d3205c838ebb2545b2507cab9bdd57917389ab207c76a5f27821ece134ae688e8b3ebe3b7d579172209d6a5c6209a0b884b726abc96abb4276c58f9e96ffb48569d579b8a8f816e1aa9819689c8239a566119cb6c5140b6c893056ea877356c3af042f28bb1bdaab709f183c1517249591e8bf4efd467e0ff223ede6e2f8688e44fc258d29707e4922977e32cd690b8a97",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667498802718"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668167096873"
+    }
+  },
+  "__v": 70,
+  "favorites": [
+    {
+      "$oid": "633f0778def3a45377affa95"
+    },
+    {
+      "$oid": "633f0783def3a45377affa97"
+    },
+    {
+      "$oid": "63458032b1b9635819c89900"
+    },
+    {
+      "$oid": "634586c6b1b9635819c8997f"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "636e1c3e401a854ded8da3c1"
+    },
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    },
+    {
+      "$oid": "6364272fee24b5dff30461d2"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "6364272fee24b5dff30461d2"
+    },
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    },
+    {
+      "$oid": "63641ce08792b33d895b1f6f"
+    }
+  ],
+  "products": []
+},{
+  "_id": {
+    "$oid": "63641ce08792b33d895b1f6f"
+  },
+  "username": "gfmois",
+  "email": "gfmois@gmail.com",
+  "image": "https://balonmano.isquad.es/images/afiliacion/square_706171636e3862716437.jpg",
+  "salt": "ca60626e494680007f8ce2d92fa4684a",
+  "hash": "5bdabaa94e253aaa4d47b17cb381b9c233061e6616fc7eb2b6177093fd52b32521a2f90e891b389b1af59f464cd76fec539f4d7090e8c4571b536f5049999ec00b733f9e8c6c43b4e3d6d38db570b794d04bbd94697c4377786798d2552180de8a715f26508f331ceb33b9704622adeedc9a24a8e44a1594313df97a3f9cf0eca93e1aa5f0685c4cf332833c289f086d2213d5ddd539984b9863447b23ed5785efce29c4a9ad6b576de4ef9eb9cbc9540f58d3bd8b77542365eef5c624c310515d94ef961132638c59d6033c6d465bd4b4091897cfc75280c34e9cbf424060ef1425cc006442bbbc5aabcc5a8cf06a0a2719d37f499aafdba5a70e13c4d21fbf8e653868a18c1cfbbec78e2e3a6581ffff57f170f9d19fc787bc34ec5847f9c1f913035e582baf6366ce8883e5b9b1f030d1a90ed2ef0d3e00778eb88dc63d5739f4c43001a67ed5bc6b08ddf0f2b7b4539d1ee6f400a3b54e8c89d4329fada3ba4076678b8beb9317267f423d4f9f6feb3e79efc22204ed126097e59482c99312a7ea9d0d582d77c1af79cc2300a1bd34bd7f1dc6bb930315038bdc2c3bc8888bd579e85ca0219d6da13584ae351f5ab432e6c71d606b45c0e647ee4e0e45c36e298d356de8576cc82355c0381095dbd1a640efb340eb09687ddec3b56ef21d5398c127850fc9c88ef2687722a597bffef2c369743181476f03597d1e984034",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667505376868"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668160532787"
+    }
+  },
+  "__v": 10,
+  "favorites": [],
+  "followers": [
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    },
+    {
+      "$oid": "636403320e1720b469169d08"
+    }
+  ],
+  "following": []
+},{
+  "_id": {
+    "$oid": "6364272fee24b5dff30461d2"
+  },
+  "username": "sbiosca94",
+  "email": "sbiosca94@gmail.com",
+  "image": "https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1900&h=1267",
+  "salt": "0c848eaf9f1ce917ae9b10b840954c81",
+  "hash": "7eceb65084368f87bb1dd4f4d6faab232971884b2715c8b543de5464f81ade53e99e6a1abb07b9c292df236dddb1620d66cc3f07efe412fc91c1ba19a3c08630480a505f02845965cb818e0e3cf23320e38cc11b1935bdf6f29ba05314c9769c65bb9ace9df87b6d17173fcebff154fa5043ba801c42543e07c156f718246e7d1eb0e5eadc571ccdacbcd1cc7355ab6b16bf1344c2514b1b218790679d62dbfe313d5a34f9cb2b0aeea383fa9787eed9de60340cda622554b478f188d78c61cacea2dd0ee0d61f03fc4cb17aff85dce9cfdb5171783196c581485331bb6f3af9334d1ddde18ad0b0800ad5b1e181e6189928eb8606e49c48809dddc389bacc73414f66395f1b24159778f6afc539e523e4255e4ce2e17e3eb2ccfab89b4cd9795e8bbcafcbbc093f17300252f846acca6ed99666bbb7aace4763d5ce81f5d8e991338bf9217fdceeb6c679db37505aeb28875077a7d4856f7afba8d8dcf3e20c661e7469df0e4b64a1439a43e129208118db12ec2606e14525749d62c8a77a42a1aa8295416e85e800066d31199460f62a87f5f87e28fee97aa26a63f84092d8e41318181eff505373a2279a3d6d1886f0836e0b9725b8be666a4df1b404ade0c875c1cd82fc3723aa0c89df8a602ebce1861b781b39c1393c596dac88d2e2b420d211e69da2f80158ba59eff71778c4251a286e6fe64cf767836295e85636f6",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667508015973"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668167096873"
+    }
+  },
+  "__v": 76,
+  "favorites": [
+    {
+      "$oid": "633f078edef3a45377affa99"
+    },
+    {
+      "$oid": "6346ac4fcb6ab08e153a41e2"
+    },
+    {
+      "$oid": "634586d2b1b9635819c89981"
+    },
+    {
+      "$oid": "634586d2b1b9635819c89981"
+    },
+    {
+      "$oid": "634586d2b1b9635819c89981"
+    },
+    {
+      "$oid": "63458032b1b9635819c89900"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "636403320e1720b469169d08"
+    },
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    },
+    {
+      "$oid": "636403320e1720b469169d08"
+    }
+  ],
+  "products": []
+},{
+  "_id": {
+    "$oid": "63652cf5a8211bd0b9d33e27"
+  },
+  "username": "sergis",
+  "email": "adf@gmail.com",
+  "image": "https://avatars.dicebear.com/api/croodles/your-custom-aseed.svg",
+  "salt": "fb4c33fa8150986fa1698816052a3371",
+  "hash": "c14fc03ed10ab052366dd7fa33cd4dd329819956a52cc27205cc008d1c64f1810d9ef43287724203de9ea705cabad81ff767b8891c251c6de402cf31e8d0b4ec1ebf4a210c47ea6572816e10cb8d72672c7e65255eec5988a0ac2c898c38b56c1ccfd5319cabb0bb4a4bf0c6203664110c8ad8a040d987689b6b3c9c07b9e2c2b755251a177ac11736c7621260269f532593556200f5b9a8d185c21584f444b804967a4d066f75e40264f675f6628fff6c7fd32eb8a3b9d2facddc23dbef9c3769384bdbbe520a407d721549e3b64d7401c385c623279be2853d919372a0388abb0ab92c5b7fdc9cc8a183ce34a882021a0ac2a9f761608f94332d1a286b2e51ec0b1a22de1646d18e91830afddf601ee22824d32eca3fc5c2ad96bbb0d77f3413e29c318ab2bf1f7eb40b2d9041d47d5aa7af26dc35d710866ea7f0b45c3ee07b25d7d53a6a026fbbbe79a76976099bf8a45fc83c49947822bc87791bed3fc77358d1c0a4870e7c6262cd4134abeb4748e07bc57224c1ab06ad2626b0153ed9936eff035b8da11477cea6081a3a10c543b402123466753ade9977ba7c4d1ffbc4b8e1c7f3c3f1a4c773e2660715fe66c15cd54bc150c208933aaa04a05fc5ba34fba8b4b2a1d4ebeb18dc6ace0f65f29015855a644bc3eba5747998aaff074b3079a78a932568d5bf93e3598f51904851a0b53d56615f68bf82c5e90595d5ae",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667575029563"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667575048047"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636e1c3e401a854ded8da3c1"
+  },
+  "favorites": [
+    {
+      "$oid": "634586bab1b9635819c8997d"
+    },
+    {
+      "$oid": "633f0778def3a45377affa95"
+    }
+  ],
+  "following": [
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    },
+    {
+      "$oid": "636403320e1720b469169d08"
+    }
+  ],
+  "followers": [
+    {
+      "$oid": "6362ca103ed8a24818fca81d"
+    }
+  ],
+  "username": "pepe",
+  "email": "pepe@gmail.com",
+  "image": "https://avatars.dicebear.com/api/adventurer/youdasfr-custom-seed.svg",
+  "salt": "612875e89f4f1db0cb7297451067da41",
+  "hash": "4b98281c3c5ebff4098a1b3bb155f05c457bd80cfc102445f9ef6a85a2e8ad72a933c9881a98a25667e08d9d6909e8629366a2b82c353983fca2ce60cb1fc2f0dd492946d8424ee39bb994dd6624c027556a9f7a688c4a7e7978ff8027a6df4a5179294796a7d6d7ca01012900ce06cc4aa518c8137cbad417ffbc875fb987f0e2a1b65189ea5029b9ed4596eb367ee9cb992ade51f57974eaa10187f8571d923300d9bcb3c8e301f6f175e0741dfc6bae36a7d8174215b7640fe59c6f58ef98b7321fa2864a2976b20594b60199c46f9f9a0ff7ae42de78b07a87cf6e1270f37f21bbdc64c0a80ad61cfac40db537900f0a85df6807e2918b4b9fb04fc08a5942f62a97d19d04daf896df96afdebb512c38a896cd26da20c027c9864105c1a974cff6cabc154cabf2995402ec4f12ff8907a133f0be082946c1101ebd79a56965a65299f6010f1c64447475c883bf8b91b71a8988f5ae3c2e6bd66942fceda2a64af859d0d5449c388f1ce68681b231916bc9ceb9ad47edba9f4f9ea8b098019a7206848e4a544cedbf7d36dc5d68d7e13e5eccf6a54c97e3c8deb23cd2debfa922a0f04b2262129b5a467b62a4d2fea619becd14aed4b2b3cf7d2fe2e61e07512041a46d6a6b4f9eb490cd71283bb43c3efde0893a45022ec60fb05b9ace991ce1623a582c2607c15e6c6d2b5f9430fe33792c064b437522668841e5637493",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668160574483"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668160674322"
+    }
+  },
+  "__v": 11
+}]
