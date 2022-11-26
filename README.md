@@ -1,52 +1,32 @@
-# NodeJS_Express_Mongo_Angular13
-Realized by Rafa Ferri Torró and Sergi Biosca Beneyto
+# NodeJS_Express_Mongo_Angular13 DOCKER-COMPOSE
+Realized by Sergi Biosca Beneyto
 
-     It's our first project in 2 DAW with Nodejs and Mongo, it's website has second hand 
-     products which are buy and put in sale by our clients. They can give a like and write 
-     a comment in each product.
+     PROYECTO PAGINA WEB BIOSPOP DOCKERIZADO PARA EL MODULO DE DESPLEGAMIENTO.
 
 ## Setup
 
-### Node
-      npm install nodejs
-      npm install mongoose
-      npm install express
+### DOCKER-COMPOSE:
+      
+      docker-compose up --build
 
-### Bootstrap
-      npm i @ng-bootstrap/ng-bootstrap@12.x.x --legacy-peer-deps
-      npm install @popperjs/core --save --force
+### CONTENEDOR SERVICIO-MONGODB:
+      Creación del servicio con la reciente imagen de mongo, asociando al nombre mongo_container,
+      realizamos que reinicie siempre al haber algún error, asociando a los puertos 27018:27017,
+      poniendo las variables de entorno en un fichero .env, creación de diferentes volumenes con
+      los scripts correspondientes y la copia de la base de datos para crearla una vez arrancado
+      el contenedor y por último asociando a la network correspondiente de todo los contenedores:
 
- ### PrimeNG
-      npm install primeng --save
-      npm install primeicons --save
-
-### Fontawesome
-      https://github.com/FortAwesome/angular-fontawesome/blob/5581dee5fc060ea5383e5a66bc3f3504bf491446/docs/usage/features.md#size
-
-### Pagination
-      npm install ngx-pagination --save
-
-### SCSS
-      npm install -g scss
-
-### Auth
-      npm install jsonwebtoken --save 
-      npm install passport --save  
-      npm install express-jwt --save  
-
-### InfiniteScroll
-      npm install --save ngx-infinite-scroll@10 --force
-      npm install --save ngx-spinner@10 --force
-
-
-## Architecture 
-
-| Module     | Controller |
-| ---      | ---       |
-| Home |  Category, Carrousel, InfiniteScroll       |
-| Shop     | Filters, Pagination , Likes      |
-| Detail |  Comments    |
-| Login     | NoAuthGuard, Regex, Validators, Token(JWT), Save Current User, Crypt Algorithms       |
-| Register |  NoAuthGuard, Regex, Validators, Token(JWT), Save Current User, Crypt Algorithms              |
-| Search     | Search      |
-| Profile     |  AuthGuard, Children Router, Resolvers, ProfileGuard, Follow User, Upload User Image, User Statistics     |
+      mongodb:
+            image: mongo:latest
+            container_name: mongo_container
+            restart: always
+            ports:
+                  - 27018:27017
+            env_file:
+                  - data.env
+            volumes:
+                  - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+                  - ./mongo/mongorestore.sh:/docker-entrypoint-initdb.d/mongorestore.sh
+                  - ./backend/rest/bd:/db-dump
+            networks:
+                  - network_project
